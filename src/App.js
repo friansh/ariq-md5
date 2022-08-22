@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>File Comparator</h1>
+      <h1>Checksum Validator</h1>
 
       <ReactFileReader base64={true} handleFiles={handleFile1Change}>
         <button>Upload File 1</button>
