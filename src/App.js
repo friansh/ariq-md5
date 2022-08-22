@@ -43,7 +43,7 @@ function App() {
         <br />
         type: {file1.fileList[0]?.type}
         <br />
-        md5: {file1.base64 ? md5(file1.base64) : null}
+        checksum: {file1.base64 ? md5(file1.base64) : null}
         <br />
       </span>
 
@@ -57,7 +57,7 @@ function App() {
         <br />
         type: {file2.fileList[0]?.type}
         <br />
-        md5: {file2.base64 ? md5(file2.base64) : null}
+        checksum: {file2.base64 ? md5(file2.base64) : null}
         <br />
       </span>
 
