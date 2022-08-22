@@ -57,7 +57,7 @@ function App() {
         <br />
         type: {file2.fileList[0]?.type}
         <br />
-        md5: {file2.base64 ? md5(file1.base64) : null}
+        md5: {file2.base64 ? md5(file2.base64) : null}
         <br />
       </span>
 
